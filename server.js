@@ -26,7 +26,7 @@ app.get('/app/', (req,res,next)=>{
 })
 app.get('/app/roll',(req,res,next)=>{
     const answer = roll(defaultroll.sides,defaultroll.dice,defaultroll.rolls)
-    console.log(answer)
+    //console.log(answer)
     res.send(answer)
     res.status(200)
     res.end
